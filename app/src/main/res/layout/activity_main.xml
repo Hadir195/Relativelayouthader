@@ -1,0 +1,150 @@
+<?xml version="1.0" encoding="utf-8"?>
+<RelativeLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    android:backgroundTint="@color/white"
+    tools:context=".MainActivity">
+
+    <Button
+        android:id="@+id/button2"
+        android:layout_width="wrap_content"
+        android:layout_height="52dp"
+        android:layout_alignParentStart="true"
+        android:layout_alignParentTop="true"
+        android:layout_alignParentEnd="true"
+        android:layout_alignParentBottom="true"
+        android:layout_marginStart="38dp"
+        android:layout_marginTop="130dp"
+        android:layout_marginEnd="277dp"
+        android:layout_marginBottom="549dp"
+        android:text="1"
+        tools:ignore="HardcodedText,VisualLintOverlap,VisualLintButtonSize" />
+
+    <Button
+        android:id="@+id/button4"
+        android:layout_width="wrap_content"
+        android:layout_height="51dp"
+        android:layout_alignParentStart="true"
+        android:layout_alignParentTop="true"
+        android:layout_alignParentEnd="true"
+        android:layout_alignParentBottom="true"
+        android:layout_marginStart="158dp"
+        android:layout_marginTop="133dp"
+        android:layout_marginEnd="155dp"
+        android:layout_marginBottom="547dp"
+        android:text="2"
+        tools:ignore="HardcodedText,VisualLintOverlap,VisualLintButtonSize" />
+
+    <Button
+        android:id="@+id/button5"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_alignParentStart="true"
+        android:layout_alignParentTop="true"
+        android:layout_alignParentEnd="true"
+        android:layout_alignParentBottom="true"
+        android:layout_marginStart="283dp"
+        android:layout_marginTop="137dp"
+        android:layout_marginEnd="37dp"
+        android:layout_marginBottom="546dp"
+        android:text="3"
+        tools:ignore="HardcodedText,VisualLintOverlap,VisualLintButtonSize" />
+
+    <Button
+        android:id="@+id/button6"
+        android:layout_width="100dp"
+        android:layout_height="wrap_content"
+        android:layout_alignParentStart="true"
+        android:layout_alignParentTop="true"
+        android:layout_alignParentEnd="true"
+        android:layout_alignParentBottom="true"
+        android:layout_marginStart="279dp"
+        android:layout_marginTop="226dp"
+        android:layout_marginEnd="38dp"
+        android:layout_marginBottom="457dp"
+        android:text="4"
+        tools:ignore="HardcodedText,VisualLintOverlap,VisualLintButtonSize" />
+
+    <Button
+        android:id="@+id/button7"
+        android:layout_width="417dp"
+        android:layout_height="wrap_content"
+        android:layout_alignParentStart="true"
+        android:layout_alignParentTop="true"
+        android:layout_alignParentEnd="true"
+        android:layout_alignParentBottom="true"
+        android:layout_marginStart="-7dp"
+        android:layout_marginTop="2dp"
+        android:layout_marginEnd="0dp"
+        android:layout_marginBottom="667dp"
+        android:background="#090202"
+        android:ignore="HardcodedText,VisualLintButtonSize,VisualLintBounds"
+        android:text="jobsheet 8"
+        tools:ignore="HardcodedText,VisualLintBounds,VisualLintButtonSize" />
+
+    <Button
+        android:id="@+id/button8"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_alignParentStart="true"
+        android:layout_alignParentTop="true"
+        android:layout_alignParentEnd="true"
+        android:layout_alignParentBottom="true"
+        android:layout_marginStart="157dp"
+        android:layout_marginTop="298dp"
+        android:layout_marginEnd="160dp"
+        android:layout_marginBottom="385dp"
+        android:text="5"
+        tools:ignore="HardcodedText,VisualLintOverlap,VisualLintButtonSize" />
+
+    <Button
+        android:id="@+id/button9"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_alignParentStart="true"
+        android:layout_alignParentTop="true"
+        android:layout_alignParentEnd="true"
+        android:layout_alignParentBottom="true"
+        android:layout_marginStart="43dp"
+        android:layout_marginTop="298dp"
+        android:layout_marginEnd="274dp"
+        android:layout_marginBottom="385dp"
+        android:text="6"
+        tools:ignore="HardcodedText,VisualLintOverlap,VisualLintButtonSize" />
+
+    <Button
+        android:id="@+id/button11"
+        android:layout_width="wrap_content"
+        android:layout_height="69dp"
+        android:layout_alignParentStart="true"
+        android:layout_alignParentTop="true"
+        android:layout_alignParentEnd="true"
+        android:layout_alignParentBottom="true"
+        android:layout_marginStart="12dp"
+        android:layout_marginTop="396dp"
+        android:layout_marginEnd="18dp"
+        android:layout_marginBottom="266dp"
+        android:text="7"
+        tools:ignore="HardcodedText,VisualLintButtonSize,VisualLintOverlap,TextContrastCheck" />
+
+    <TextView
+        android:id="@+id/textView"
+        android:layout_width="374dp"
+        android:layout_height="145dp"
+        android:layout_alignParentStart="true"
+        android:layout_alignParentTop="true"
+        android:layout_alignParentEnd="true"
+        android:layout_alignParentBottom="true"
+        android:layout_marginStart="22dp"
+        android:layout_marginTop="522dp"
+        android:layout_marginEnd="15dp"
+        android:layout_marginBottom="62dp"
+        android:text="Hader"
+        android:textAlignment="center"
+        android:textSize="100dp"
+        android:textStyle="bold|italic"
+        tools:ignore="HardcodedText,SpUsage,TextSizeCheck" />
+
+</RelativeLayout>
